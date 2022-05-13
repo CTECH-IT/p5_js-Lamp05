@@ -1,1 +1,25 @@
-/* Put your CSS here */
+html, body {
+    margin: 2px;
+    padding: 0;
+}
+  
+canvas {
+    display: block;
+    align-items: center;
+}
+  
+.title-text {
+    font-weight: normal;
+    text-align: left;
+    padding:0;
+    margin:0;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.author {
+    font-weight: normal;
+    text-align: left;
+    padding:0;
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+}
