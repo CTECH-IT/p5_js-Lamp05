@@ -1,9 +1,14 @@
 html, body {
     margin: 2px;
     padding: 0;
+    background-color: #252e3d;
 }
 
 canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
   
@@ -13,12 +18,5 @@ canvas {
     padding:0;
     margin:0;
     font-family: "Courier New", Courier, monospace;
-}
-
-.author {
-    font-weight: normal;
-    text-align: left;
-    padding:0;
-    margin:0;
-    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 251, 201);
 }
