@@ -1,8 +1,7 @@
 let mic;
 
  function setup(){
-  let cnv = createCanvas(100, 100);
-  cnv.mousePressed(userStartAudio);
+  userStartAudio();
   mic = new p5.AudioIn();
   mic.start();
 }

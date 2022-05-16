@@ -2,10 +2,9 @@ html, body {
     margin: 2px;
     padding: 0;
 }
-  
+
 canvas {
     display: block;
-    align-items: center;
 }
   
 .title-text {
